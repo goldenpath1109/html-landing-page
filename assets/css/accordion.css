@@ -120,3 +120,28 @@ img[alt="text-a"] {
 .accordion-bottom {
 	margin-bottom: 0rem;
 }
+@media screen and (max-width: 768px) {
+	.accordion-q-p {
+		width: 71%;
+		padding-left: 2.6rem;
+	}
+	.accordion-button i {
+		display: inline-block;
+		position: absolute;
+		right: 1.6rem;
+		top: 2rem;
+		line-height: 1;
+		transition: all 0.3s ease-in-out;
+		color: #3d67a6;
+	}
+	.accordion-q {
+		align-items: start;
+	}
+	.accordion-a {
+		align-items: start;
+	}
+	.accordion-a-img {
+		padding-right: 2.6rem;
+		padding-top: 2rem;
+	}
+}
