@@ -910,4 +910,8 @@ img[alt="message"] {
 		margin-right: 1rem;
 		display: inline-block;
 	}
+	img[alt="message"] {
+		width: 100%;
+		height: 19rem;
+	}
 }
