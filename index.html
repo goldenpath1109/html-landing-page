@@ -1,11 +1,613 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@200;300;500;600;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./assets/css/common.css" />
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/accordion.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<div class="wrapper">
+				<div class="logo">
+					<img src="./assets/img/pc/logo.png" alt="logo" />
+				</div>
+				<div class="container header-container">
+					<div class="flex justify-center">
+						<h4 class="service-system">東上セレモサービス互助会システム</h4>
+					</div>
+					<div class="information-canllellation flex">
+						<div class="img">
+							<img src="./assets/img/pc/header_round.png" alt="header-round" />
+						</div>
+						<div class="information text-center">
+							<p class="text-underline">解約のための</p>
+							<p class="text-underline">相続手続きのご案内</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end header -->
+
+		<!-- main -->
+		<main id="main">
+			<section id="procedure-flow">
+				<div class="container">
+					<div class="flex justify-center pb-50">
+						<p class="flow">手続きの流れ</p>
+					</div>
+					<div class="precedure-red-box flex justify-around pb-72">
+						<div class="red-box">
+							<p>相続手続き</p>
+							<img src="./assets/img/pc/red-box.png" alt="red" />
+							<img src="./assets/img/pc/red-arrow.png" alt="red-arrow" />
+						</div>
+						<div class="red-box">
+							<p>解約手続き</p>
+							<img src="./assets/img/pc/red-box.png" alt="red" />
+							<img src="./assets/img/pc/red-arrow.png" alt="red-arrow" />
+						</div>
+						<div class="red-box">
+							<p class="left-33">完了</p>
+							<img src="./assets/img/pc/red-box.png" alt="red" />
+						</div>
+					</div>
+					<div class="text-left see-below">
+						<p>
+							解約は<span class="text-underline-red"
+								>契約者様ご本人でなければできない</span
+							>ため、ご契約者様がお亡くなりになられている場合には、<span
+								class="text-underline-red"
+								>相続手続きを完了させる必要があります。</span
+							>
+						</p>
+						<p>具体的な手順については以下をご覧ください。</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="white-box">
+						<div class="customer flex">
+							<div class="customer-button">
+								<p>お客様</p>
+							</div>
+							<div class="customer-text">
+								<p>相続人を確認するため、</p>
+								<p>戸籍または法廷相続情報を集める</p>
+							</div>
+						</div>
+						<div class="family-register">
+							<div class="register-title">
+								<p class="text-underline-blue">戸籍について</p>
+							</div>
+							<div class="register-content">
+								<p class="prepare text-underline-red">
+									ご契約者様が関わる全種類の戸除籍謄本（戸籍謄本や原戸籍謄本、除籍謄本）を本籍地ごとにお揃えください。
+								</p>
+								<p class="prepare-content">
+									※ ご契約者様が亡くなられている場合は<span class="font-red"
+										>除籍謄本</span
+									>が必要です。
+									<br />
+									※ 相続対象者全員が記載されているものです。<br />
+									※
+									ご契約者様のお子様がお亡くなりになられている場合は、その方の出生から亡くなる<span
+										class="text-underline-red"
+										>までの<span class="font-red">戸除籍謄本</span>が必要</span
+									>です。また、亡くなられた方の相続分はその方のお子様へ引き継がれます。<br />
+									※
+									戸籍は郵送での取り寄せが可能です。詳しくは市町村の窓口へお問合せください。尚、お問合せの際には<span
+										class="text-underline-red"
+										>「相続で使う。（契約者様）が係る全種類の戸籍」</span
+									>とお伝えください。<br />
+									※
+									戸籍取得でお困りの場合は、役所窓口や法務事務所などの専門家にお尋ねください。<br />
+								</p>
+							</div>
+						</div>
+						<div class="legal">
+							<div class="legal-title text-center">
+								<p class="text-underline-blue">法定相続情報について</p>
+							</div>
+							<div class="legal-content">
+								<p>
+									『個人情報だから戸籍全てを提出することに抵抗がある』という方などは、法務局発行の「法廷相続情報」であれば弊社への開示は最小限で済むかと思われます。
+								</p>
+								<p>
+									「法廷相続情報」について、詳しくは法務局HPで御確認ください。
+								</p>
+							</div>
+							<div class="legal-check text-center">
+								<p>法務局HPで確認する</p>
+							</div>
+						</div>
+						<div class="accordian">
+							<div class="accordian-title text-center">
+								<p>相続手続きに必要な戸籍に関するよくあるご質問</p>
+							</div>
+							<div class="accordian-content">
+								<div class="accordion-wrapper">
+									<div class="accordion" id="accordion1">
+										<div class="accordion-item">
+											<button
+												class="accordion-button img-q"
+												data-parent="accordion1"
+											>
+												<div class="accordion-q flex align-item-center">
+													
+														<img
+															src="./assets/img/pc/text-q.png"
+															alt="text-q"
+														/>
+													
+													<div class="accordion-q-p">
+														被相続人の出生から亡くなるまでの戸除籍謄本が必要なのはなぜですか？
+													</div>
+												</div>
+
+												<i class="bi bi-chevron-down"></i>
+											</button>
+											<div class="accordion-content hide">
+												<p>
+													<div class="accordion-a flex align-item-center">
+														<div class="accordion-a-img">
+															<img src="./assets/img/pc/text-a.png" alt="text-a" />
+														</div>
+														<div class="accordion-a-p">
+															継承協議書には相続人全員の署名と実印押印が必要不可欠です。全員の同意が得られなければ継承協議書は無効となります。
+														</div>
+													</div>
+													
+												</p>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<button
+												class="accordion-button img-q"
+												data-parent="accordion1"
+											>
+												<div class="accordion-q flex align-item-center">
+													
+														<img
+															src="./assets/img/pc/text-q.png"
+															alt="text-q"
+														/>
+													
+													<div class="accordion-q-p">
+														実印押印、印鑑登録証明書の添付が必要な理由は？
+													</div>
+												</div>
+
+												<i class="bi bi-chevron-down"></i>
+											</button>
+											<div class="accordion-content hide">
+												<p>
+													<div class="accordion-a flex align-item-center">
+														<div class="accordion-a-img">
+															<img src="./assets/img/pc/text-a.png" alt="text-a" />
+														</div>
+														<div class="accordion-a-p">
+															継承協議書には相続人全員の署名と実印押印が必要不可欠です。全員の同意が得られなければ継承協議書は無効となります。
+														</div>
+													</div>
+													
+												</p>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<button
+												class="accordion-button img-q"
+												data-parent="accordion1"
+											>
+												<div class="accordion-q flex align-item-center">
+													
+														<img
+															src="./assets/img/pc/text-q.png"
+															alt="text-q"
+														/>
+													
+													<div class="accordion-q-p">
+														海外在住で印鑑登録証明書を役所に請求できない場合は、どうすればよいですか？
+													</div>
+												</div>
+
+												<i class="bi bi-chevron-down"></i>
+											</button>
+											<div class="accordion-content hide">
+												<p>
+													<div class="accordion-a flex align-item-center">
+														<div class="accordion-a-img">
+															<img src="./assets/img/pc/text-a.png" alt="text-a" />
+														</div>
+														<div class="accordion-a-p">
+															継承協議書には相続人全員の署名と実印押印が必要不可欠です。全員の同意が得られなければ継承協議書は無効となります。
+														</div>
+													</div>
+													
+												</p>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<button
+												class="accordion-button img-q"
+												data-parent="accordion1"
+											>
+												<div class="accordion-q flex align-item-center">
+													
+														<img
+															src="./assets/img/pc/text-q.png"
+															alt="text-q"
+														/>
+													
+													<div class="accordion-q-p">
+														外国人の場合はどうすればよいですか
+													</div>
+												</div>
+
+												<i class="bi bi-chevron-down"></i>
+											</button>
+											<div class="accordion-content hide">
+												<p>
+													<div class="accordion-a flex align-item-center">
+														<div class="accordion-a-img">
+															<img src="./assets/img/pc/text-a.png" alt="text-a" />
+														</div>
+														<div class="accordion-a-p">
+															継承協議書には相続人全員の署名と実印押印が必要不可欠です。全員の同意が得られなければ継承協議書は無効となります。
+														</div>
+													</div>
+													
+												</p>
+											</div>
+										</div>
+										<div class="accordion-item accordion-bottom">
+											<button
+												class="accordion-button img-q"
+												data-parent="accordion1"
+											>
+												<div class="accordion-q flex align-item-center">
+													
+														<img
+															src="./assets/img/pc/text-q.png"
+															alt="text-q"
+														/>
+													
+													<div class="accordion-q-p">
+														相続人全員の同意（協議書への署名と実印押印）が得られない場合は、どうすればよいですか？
+													</div>
+												</div>
+
+												<i class="bi bi-chevron-down"></i>
+											</button>
+											<div class="accordion-content hide">
+												<p>
+													<div class="accordion-a flex align-item-center">
+														<div class="accordion-a-img">
+															<img src="./assets/img/pc/text-a.png" alt="text-a" />
+														</div>
+														<div class="accordion-a-p">
+															継承協議書には相続人全員の署名と実印押印が必要不可欠です。全員の同意が得られなければ継承協議書は無効となります。
+														</div>
+													</div>
+													
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="down-arrow flex justify-center">
+						<img src="./assets/img/pc/bottom_arrow.png" alt="bottom_arrow">
+					</div>
+					<div class="white-box">
+						<div class="customer-box flex">
+							<div class="customer-box-button">
+								<p>お客様</p>
+							</div>
+							<div class="customer-box-text">
+								<p><span class="text-underline-red">①互助契約継承申請書</span>と<span class="text-underline-red">②互助契約継承協議書</span>をこのページの下にある〔ダウンロードボタン〕をクリックしてダウンロードする。</p>
+								<p>①と②を作成し、実印押印・印鑑登録証明書を添付してください。</p>
+							</div>
+						</div>
+					</div>
+					<div class="down-arrow flex justify-center">
+						<img src="./assets/img/pc/bottom_arrow.png" alt="bottom_arrow">
+					</div>
+					<div class="white-box">
+						<div class="customer flex">
+							<div class="customer-button">
+								<p>お客様</p>
+							</div>
+							<div class="customer-text">
+								<p>戸籍または法廷相続情報と</p>
+								<p>①と②を弊社に送る</p>
+							</div>
+						</div>
+						<div class="family-register">
+							<div class="register-content-custom">
+								<p class="prepare-content">
+									※ 原則、戸籍・印鑑登録証明書は写し原本のご送付をお願いしております。<span class="text-underline-red">また、戸籍の返却をご希望の場合は、写し原本とコピーして頂いたものの両方をご送付ください。確認後、写し原本をご返却いたします。</span>尚、印鑑証明は写し原本を頂戴いたします。<br>
+									※ 既に分割協議をされている書類がございいましたら、<span class="text-underline-red">原本と全文コピー</span>をご提出ください。<br>
+									※ 送付方法につきましてはお客様のご判断でお願いいたします。<br>
+									※ 普通郵便の場合、配達を追跡することができませんのでご注意ください。<br>
+								</p>
+							</div>
+						</div>
+						<div class="address-person">
+							<div class="flex">
+								<div class="address-person-1">
+									<p>宛先</p>
+								</div>
+								<div class="address-person-2">
+									<p>〒352-0001　埼玉県新座市東北2-27-3-5F<br>
+										東上セレモサービス　サービス課宛</p>
+								</div>
+							</div>
+							<div class="flex mt-38">
+								<div class="address-person-3">
+									<p>必須</p>
+								</div>
+								<div class="address-person-4">
+									<p>差出人は、<span class="text-underline-red font-red">継承者（相続人代表者）様の住所・氏名と契約者番号</span>をお書きください。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="down-arrow flex justify-center">
+						<img src="./assets/img/pc/bottom_arrow.png" alt="bottom_arrow">
+					</div>
+					<div class="white-box">
+						<div class="customer-box flex align-item-center">
+							<div class="customer-box-red-button">
+								<p class="background-color-red">弊社</p>
+							</div>
+							<div class="customer-box-text">
+								<p>ご郵送いただいた書類を確認し、解約申請書を送付</p>
+							</div>
+						</div>
+						<div class="register-copy">
+							<p>※ 弊社からの戸籍写し原本のご返却は、普通郵便（配達追跡不可）にてご送付いたします。<br>
+								※ 郵便事故での紛失等に関しては責任をおいかねます。<br>
+								<img src="./assets/img/pc/small-box.png" alt="small-box"> 普通郵便での返却が不安な場合<br>
+								※ 宛先・差出人をご記入のうえ、下記 A か B のいずれかを同封してください。同封がない場合は普通郵便（配達追跡不可）でのご送付となります。ご了承ください。<br>
+								A. レターパックプラス赤（郵便局、コンビニにて購入可）<br>
+								※コンビニでの取扱は各店舗にてご確認ください。<br>
+								B. 宅配着払い伝票（コンビニ扱いのみ）</p>
+						</div>
+					</div>
+					<div class="down-arrow flex justify-center">
+						<img src="./assets/img/pc/bottom_arrow.png" alt="bottom_arrow">
+					</div>
+					<div class="white-box-create">
+						<div class="customer-box flex">
+							<div class="customer-box-button">
+								<p>お客様</p>
+							</div>
+							<div class="customer-box-text flex justify-center align-item-center">
+								<p><span class="text-underline-red">解約申請書を作成</span>し、弊社に郵送。</p>
+							</div>
+						</div>
+					</div>
+					<div class="down-arrow flex justify-center">
+						<img src="./assets/img/pc/bottom_arrow.png" alt="bottom_arrow">
+					</div>
+					<div class="white-box-create">
+						<div class="customer-box flex">
+							<div class="customer-box-red-button">
+								<p>弊社</p>
+							</div>
+							<div class="customer-box-text flex justify-center align-item-center">
+								<p>書類到着後、書類に不備がない場合には45日以内にご継承者様名義指定口座へお振込み。継承者様へ加入者預り証（返金明細）を郵送。</p>
+							</div>
+						</div>
+					</div>
+					<div class="down-arrow flex justify-center">
+						<img src="./assets/img/pc/bottom_arrow.png" alt="bottom_arrow">
+					</div>
+					<div class="white-box-create">
+						<div class="customer-box flex">
+							<div class="customer-box-button">
+								<p>お客様</p>
+							</div>
+							<div class="customer-box-text flex justify-center align-item-center">
+								<p>加入者預り書<span class="text-underline-red">お振込日の翌日以降に記帳確認</span></p>
+							</div>
+						</div>
+						<div class="processing-time">
+							<p>※ 受取金融機関により処理時間が異なりますので、記帳は翌日が確実です。</p>
+						</div>
+					</div>
+					<div class="down-arrow flex justify-center">
+						<img src="./assets/img/pc/bottom_arrow.png" alt="bottom_arrow">
+					</div>
+					<div class="completed flex justify-center">
+						<p class="text-underline-thick-blue">完了</p>
+					</div>
+				</div>
+			</section>
+			<section id="survey">
+				<div class="container">
+					<div class="survey-title border-grey flex">
+						<div class="survey-title-img">
+							<img src="./assets/img/pc/header_round.png" alt="survey-img">
+						</div>
+						<div class="text-center survey-title-content">
+							<p>今後のサービス改善のため、<br>
+								<span class="text-underline-thick-blue">解約の理由に関するアンケート</span> に<br>ご協力ください。</p>
+							<p class="survey-title-content-small">
+								該当するものにチェックを入れてください。
+							</p>
+						</div>
+					</div>
+					<div class="checkbox-model">
+						<div class="checkbox-model-title flex">
+							<div class="flex align-item-center pr-2">
+								<img src="./assets/img/pc/blue-circle.png" alt="blue-cicle">
+							</div>
+							<div>
+								<p>東上セレモ以外の斎場でお葬式をあげたい。</p>
+							</div>
+							
+						</div>
+						<div class="checkbox-content flex">
+							<div class="flex align-item-center yes">
+								<input type="checkbox" class="check-custom"><p>はい</p>
+							</div>
+							<div class="flex align-item-center yes">
+								<input type="checkbox" class="check-custom"><p>いいえ</p>
+							</div>
+						</div>
+						<div class="checkbox-red-bottom flex">
+							<img src="./assets/img/pc/knowledgeable.png" alt="knowledgeable">
+							<p>お葬式は自社施設以外にも60軒以上の提携式場・地域の公営斎場で行っていただけます。</p>
+						</div>
+					</div>
+					<div class="checkbox-model">
+						<div class="checkbox-model-title flex">
+							<div class="flex align-item-center pr-2">
+								<img src="./assets/img/pc/blue-circle.png" alt="blue-cicle">
+							</div>
+							<div>
+								<p>加入者がサービスを利用できなくなった。</p>
+							</div>
+							
+						</div>
+						<div class="checkbox-content flex">
+							<div class="flex align-item-center yes">
+								<input type="checkbox" class="check-custom"><p>はい</p>
+							</div>
+							<div class="flex align-item-center yes">
+								<input type="checkbox" class="check-custom"><p>いいえ</p>
+							</div>
+						</div>
+						<div class="checkbox-red-bottom flex">
+							<img src="./assets/img/pc/knowledgeable.png" alt="knowledgeable">
+							<div class="flex align-item-center">
+								<p>加入者ご本人だけでなく、登録されたご家族もご利用いただけます。</p>
+							</div>
+						</div>
+					</div>
+					<div class="checkbox-model">
+						<div class="checkbox-model-title flex">
+							<div class="flex align-item-center pr-2">
+								<img src="./assets/img/pc/blue-circle.png" alt="blue-cicle">
+							</div>
+							<div>
+								<p>お葬式をあげる予定がない。</p>
+							</div>
+							
+						</div>
+						<div class="checkbox-content flex">
+							<div class="flex align-item-center yes">
+								<input type="checkbox" class="check-custom"><p>はい</p>
+							</div>
+							<div class="flex align-item-center yes">
+								<input type="checkbox" class="check-custom"><p>いいえ</p>
+							</div>
+						</div>
+						<div class="checkbox-red-bottom flex">
+							<img src="./assets/img/pc/knowledgeable.png" alt="knowledgeable">
+							<p>お葬式を行わなくても、故人様の搬送や納棺、斎場の手配などが必要です。弊社がお手伝いしますのでご相談ください。</p>
+						</div>
+					</div>
+					<div class="checkbox-model">
+						<div class="checkbox-model-title flex">
+							<div class="flex align-item-center pr-2">
+								<img src="./assets/img/pc/blue-circle.png" alt="blue-cicle">
+							</div>
+							<div>
+								<p>積立金の払戻を希望している。</p>
+							</div>
+							
+						</div>
+						<div class="checkbox-content flex">
+							<div class="flex align-item-center yes">
+								<input type="checkbox" class="check-custom"><p>はい</p>
+							</div>
+							<div class="flex align-item-center yes">
+								<input type="checkbox" class="check-custom"><p>いいえ</p>
+							</div>
+						</div>
+						<div class="checkbox-red-bottom flex">
+							<img src="./assets/img/pc/knowledgeable.png" alt="knowledgeable">
+							<p>手続き書類の提出があった日から45日以内に返金します。なお、解約される場合、解約手数料が発生します。</p>
+						</div>
+					</div>
+					<div class="that-all">
+						<div class="that-all-title flex justify-center">
+							<p>アンケートは以上となります。</p>
+						</div>
+						<div class="that-all-content">
+							<div class="up text-center">
+								<p>上記の記載事項をすべて理解した上で ①互助契約継承申請書 と ②互助契約継承協議書 を</p>
+							</div>
+							<div class="flex justify-center">
+								<div class="down flex align-item-center justify-center">
+									<img src="./assets/img/pc/download.png" alt="download">
+									<p>ダウンロードする</p>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- end main -->
+
+		<!-- footer -->
+		<footer>
+			<div class="footer-img">
+				<div class="container">
+					<div class="flex bear justify-center">
+						<div class="flex align-item-bottom mr-10">
+							<img src="./assets/img/pc/bear.png" alt="bear">
+						</div>
+						<div class="message-content">
+							<img src="./assets/img/pc/message.png" alt="message">
+							<div class="message-content-text">
+								<p>東上セレモサービス互助会システムは、</p>
+								<p><span class="text-underline-green">解約後の再加入も可能</span>です。</p>
+								<p>ぜひお気軽にお問合せください。</p>
+							</div>
+						</div>
+					</div>
+					<div class="flex justify-center check-content">
+						<p class="check-content-p">東上セレモサービス 互助会システムの特長を確認する</p>
+					</div>
+					<div class="footer-white-box">
+						<div class="green-box">
+							<p>ご質問・お問合せ</p>
+						</div>
+						<div>
+							<p class="center">東上セレモサービス  相談センター</p>
+							<div class="flex align-item-center justify-center phone">
+								<img src="./assets/img/pc/phone.png" alt="phone"><p class="center-phone"> 048-474-0505</p>
+							</div>
+							<p class="day">月・火・木曜日（平日のみ）午前10時～12時／午後1時～4時</p>
+						</div>
+					</div>
+					<div class="copyright">
+						<p>Copyright © Tohjo Ceremo Service Co,. Ltd. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+		<script src="./assets/js/accordion.js"></script>
+	</body>
 </html>

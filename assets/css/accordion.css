@@ -1,0 +1,122 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+.container-accordion {
+	max-width: 100%;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 576px) {
+	.container-accordion {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container-accordion {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container-accordion {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container-accordion {
+		max-width: 1140px;
+	}
+}
+
+@media (min-width: 1440px) {
+	.container-accordion {
+		max-width: 1310px;
+	}
+}
+
+.accordion-item {
+	border: 1px solid gainsboro;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+}
+.accordion-button {
+	position: relative;
+	display: block;
+	width: 100%;
+	text-align: left;
+	/* padding: 20px;
+	padding-right: 80px; */
+	padding-top: 1.6rem;
+	padding-bottom: 1rem;
+	padding-left: 2.1rem;
+	background-color: transparent;
+	font-size: 20px;
+	border: 0;
+	/* border-bottom: 1px solid gainsboro; */
+	cursor: pointer;
+}
+.accordion-button i {
+	display: inline-block;
+	position: absolute;
+	right: 1.6rem;
+	top: 3.4rem;
+	line-height: 1;
+	transition: all 0.3s ease-in-out;
+	color: #3d67a6;
+}
+.accordion-button.active i {
+	transform: rotate(180deg);
+}
+.hide {
+	display: none;
+}
+.accordion-content {
+	padding: 0rem 1.6rem 1.6rem 2.1rem;
+}
+.accordion-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.accordion {
+	width: 100%;
+}
+/* custom */
+.accordion-item button {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+.accordion-content {
+	font-size: 2rem;
+	line-height: 3.6rem;
+}
+img[alt="text-q"] {
+	width: 6rem;
+	height: 6rem;
+}
+img[alt="text-a"] {
+	width: 6rem;
+	height: 6rem;
+}
+.accordion-q-img {
+	padding-right: 2.6rem;
+}
+
+.accordion-a-img {
+	padding-right: 2.6rem;
+}
+.accordion-a-p {
+	padding-top: 2rem;
+}
+.accordion-q-p {
+	width: 74rem;
+	padding-left: 2.6rem;
+}
+.accordion-bottom {
+	margin-bottom: 0rem;
+}
