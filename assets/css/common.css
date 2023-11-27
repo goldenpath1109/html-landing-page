@@ -2085,6 +2085,13 @@
 	text-decoration-color: #e2fead;
 	text-decoration-thickness: 2rem;
 	text-underline-offset: -0.6rem;
+	font-size: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+	.text-underline-green {
+		font-size: 2.5rem;
+	}
 }
 
 .pc-hide {
